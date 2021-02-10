@@ -10,7 +10,7 @@
 # Description: Use Rclone to upload files after Aria2 download is complete
 # Version: 3.0
 #
-/usr/local/bin/ctmd5 $3
+#/usr/local/bin/ctmd5 $3
 CHECK_CORE_FILE() {
     CORE_FILE="$(dirname $0)/core"
     if [[ -f "${CORE_FILE}" ]]; then
